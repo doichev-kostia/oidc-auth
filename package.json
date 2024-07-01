@@ -1,0 +1,18 @@
+{
+  "name": "oidc-auth",
+  "module": "main.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "hono": "^4.4.10",
+    "oauth4webapi": "^2.11.1",
+    "remeda": "^2.2.1",
+    "uint8array-extras": "^1.2.0",
+    "zod": "^3.23.8"
+  }
+}
