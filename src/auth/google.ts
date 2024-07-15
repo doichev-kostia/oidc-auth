@@ -5,7 +5,7 @@ import type { AuthClient } from "./auth.js";
 type GoogleOptions = {
 	clientID: string;
 	clientSecret: string
-	// https://docs.github.com/en/apps/oauth-apps/building-oauth-apps/scopes-for-oauth-apps
+	// https://developers.google.com/identity/protocols/oauth2/scopes
 	scope: string;
 	redirectURI?: string;
 	accessType?: "offline" | "online"

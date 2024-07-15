@@ -5,6 +5,7 @@ import type { AuthClient } from "./auth.js";
 type GitHubOptions = {
 	clientID: string;
 	clientSecret: string
+	// https://docs.github.com/en/apps/oauth-apps/building-oauth-apps/scopes-for-oauth-apps
 	scope: string;
 	redirectURI?: string;
 }
