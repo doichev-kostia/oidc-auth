@@ -1,5 +1,5 @@
 import * as oauth from "oauth4webapi";
-import * as assert from "node:assert";
+import * as assert from "../assert.js";
 import type { AuthClient } from "./auth.js";
 import { type Logger, noopLogger } from "../logger.js";
 import { AuthChallengeError, AuthError } from "./errors.js";
